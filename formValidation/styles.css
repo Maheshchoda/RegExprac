@@ -23,3 +23,10 @@ input{
     border: 3px solid #ccc;
     outline: none !important;
 }
+.valid{
+  border: 3px solid #9dd79d;
+
+}
+.notValid{
+  border: 3px solid #dd7a80;
+}
