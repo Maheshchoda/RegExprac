@@ -23,10 +23,25 @@ input{
     border: 3px solid #ccc;
     outline: none !important;
 }
-.valid{
-  border: 3px solid #9dd79d;
+input.valid{
+  border-color: #9dd79d;
 
 }
-.notValid{
-  border: 3px solid #dd7a80;
+input.notValid{
+  border-color: #ffaf1d;
+}
+
+input + p {
+  font-family: arial;
+  font-size: 0.9em;
+  text-align: center;
+  margin: 0 10px;
+  color: #ffaf1d;
+  opacity: 0;
+  height:0;
+}
+input.notValid  + p {
+ opacity: 1;
+ height: auto;
+ margin-bottom: 20px;
 }
